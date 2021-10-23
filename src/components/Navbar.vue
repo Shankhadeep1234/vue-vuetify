@@ -38,6 +38,7 @@ export default {
             this.$vuetify.theme.dark = false;
         }
     } else if (
+        //for Mac OS users 
         window.matchMedia &&
         window.matchMedia("(prefers-color-scheme: dark)").matches
     ) {
